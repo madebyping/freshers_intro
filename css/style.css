@@ -304,3 +304,9 @@
     top: 50%;
     left: 50%;
 }
+
+.bottom-links{
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh 50px;
+}
