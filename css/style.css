@@ -5,6 +5,7 @@
 body {
     overflow-x: hidden;
 }
+
 /*Font Face*/
 @font-face {
     font-family: fresher_heading;
@@ -313,4 +314,39 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 10vh 50px;
+}
+
+.div_map {
+    padding: 0;
+    margin: 0;
+    background-color: #fcbe2f;
+   
+}
+.img_map {
+    display: block;
+  width: 100%;
+  height: 80%;
+}
+
+
+.map_text {
+    font-family: main_heading;
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+}
+.map_content {
+    padding-top : 10%;
+}
+.map_button {
+    background-color: snow;
+    font-family: button_text;
+    color: #4A2C60;
+    text-align: center;
+    margin-left : 47%; 
+    margin-right:53% ;
+    font-size: 1.3vw;
+}
+.col_map {
+    height: 70%;
 }
