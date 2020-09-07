@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    overflow-x: hidden;
+}
 /*Font Face*/
 @font-face {
     font-family: fresher_heading;
@@ -299,10 +302,11 @@
     font-size: 1.3vw;
 }
 .img_icon {
-    width: 40%;
-    height: 40%;
+    width: 70%;
+    height: 70%;
     top: 50%;
     left: 50%;
+   
 }
 
 .bottom-links{
