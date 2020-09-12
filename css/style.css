@@ -69,6 +69,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #eb5b2e;
+    align-content: center;
 }
 .wel_title {
     font-family: main_heading;
@@ -93,11 +94,11 @@ body {
 .img_wel {
     margin: 0;
     display: block;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+    max-width: 100%;
+    object-fit: cover;
 }
 /*container welcome ends*/
 /*container dayiniiit starts*/
@@ -349,4 +350,9 @@ body {
 }
 .col_map {
     height: 70%;
+}
+
+.section{
+    /*max-height: 80vh;*/
+    /*overflow: hidden*/
 }
