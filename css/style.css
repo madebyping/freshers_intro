@@ -131,3 +131,29 @@ button{
 	justify-content: space-around;
 	padding-bottom: 5%;
 }
+
+.margin-box-left{
+	padding-left: 2rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .margin-box-left {
+    padding-left: 0;
+  }
+  .row{
+  	min-height: 60vh;
+  }
+  h1{
+   	font-size: 11vw;
+  }
+  h2{
+   	font-size: 8vw;
+  }
+  .img3{
+  	position: relative;
+  	padding: 0;
+  }
+  button{
+  	margin-bottom: 2rem;
+  }
+}
