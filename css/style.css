@@ -139,6 +139,7 @@ button{
 	font-family: 'Open Sans', sans-serif;
 	line-height: 2rem;
 	text-align: left;
+	background-color: #251531;
 }
 
 .desc div{
@@ -149,6 +150,7 @@ button{
 	display: flex;
 	justify-content: space-around;
 	padding-bottom: 5%;
+	background-color: #251531;
 }
 
 .margin-box-left{
