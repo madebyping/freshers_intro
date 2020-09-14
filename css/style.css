@@ -26,6 +26,15 @@
 
 /* CSS styles */
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+	-ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
 div, body, html{
 	margin: 0;
 	box-sizing: border-box;
@@ -42,7 +51,7 @@ h1, h2{
 }
 
 .row, .row > *{
-	width: 100vw !important;
+	width: 102vw !important;
 }
 
 .btm{
