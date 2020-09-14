@@ -37,6 +37,10 @@ h1, h2{
 	padding-top: 50px;
 }
 
+.row, .row > *{
+	width: 100vw !important;
+}
+
 .btm{
 	padding-bottom: 50px;
 }
@@ -123,6 +127,17 @@ button{
 }
 
 .col-lg-4 div, .col-lg-4 h1, .col-lg-4 h2{
+	text-align: left;
+}
+
+.desc{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2rem;
+	text-align: left;
+}
+
+.desc div{
 	text-align: left;
 }
 
