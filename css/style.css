@@ -7,14 +7,17 @@
 	font-family: main_heading;
 	src : url("../fonts/MR\ ROBOT.ttf");
 }
+
 @font-face {
 	font-family: faccha_exp;
 	src: url("../fonts/wild_hazelnut/Wild\ Hazelnut.ttf");
 }
+
 @font-face {
 	font-family: button_text;
 	src: url("../fonts/Hack-Bold.ttf");
 }
+
 @font-face {
 	font-family: ping_heading;
 	src:url("../fonts/sf_zimmerman/SF\ Zimmerman\ Italic.ttf");
