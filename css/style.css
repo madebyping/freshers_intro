@@ -77,10 +77,11 @@ h1, h2{
 	overflow-y: scroll;
 	height: 100vh;
 	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
 }
 
 .row, .stop {
-	scroll-snap-align: end;
+	scroll-snap-align: center;
 	scroll-snap-stop: normal;
 }
 
