@@ -74,6 +74,10 @@ h1, h2{
 	background-color: #4a2c60;
 }
 
+.violet {
+	background-color: #251531;
+}
+
 .parent {
 	overflow-y: scroll;
 	height: 100vh;
@@ -84,6 +88,11 @@ h1, h2{
 .row, .stop {
 	scroll-snap-align: center;
 	scroll-snap-stop: normal;
+}
+
+.stop-end {
+	scroll-snap-align: end;
+	scroll-snap-stop: always;
 }
 
 .box1 h1{
