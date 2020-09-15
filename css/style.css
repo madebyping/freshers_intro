@@ -2,8 +2,21 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.parent {
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 /*Font Face*/
@@ -13,16 +26,19 @@ body {
 }
 @font-face {
     font-family: main_heading;
-    src : url("../fonts/MR\ ROBOT.ttf");
+    src : url("../fonts/hollywood_hills/SF\ Hollywood\ Hills\ Bold.ttf");
 }
-@font-face {
-    font-family: faccha_exp;
-    src: url("../fonts/wild_hazelnut/Wild\ Hazelnut.ttf");
-}
+
 @font-face {
     font-family: button_text;
     src: url("../fonts/Hack-Bold.ttf");
 }
+
+@font-face {
+    font-family: faccha_exp;
+    src: url("../fonts/Hack-Bold.ttf");
+}
+
 @font-face {
     font-family: ping_heading;
     src:url("../fonts/sf_zimmerman/SF\ Zimmerman\ Italic.ttf");
@@ -51,11 +67,9 @@ body {
     font-weight: bolder;
 }
 .text_main1 {
-    font-family: faccha_exp;
+    font-family: button_text;
     color :#084582;
     text-align: center;
-    text-decoration-style: wavy;
-    font-weight: bolder;
 }
 .img_main1_lingo {
     display: block;
@@ -71,12 +85,12 @@ body {
     background-color: #eb5b2e;
 }
 .wel_title {
-    font-family: main_heading;
+    font-family: fresher_heading;
     color: snow;
     text-align: center;
 }
 .wel_text {
-    font-family: faccha_exp;
+    font-family: button_text;
     color: #4A2C60;
     text-align: center;
     font-size: 2vw;
@@ -313,6 +327,7 @@ body {
 .bottom-links{
     display: flex;
     justify-content: space-around;
+    background-color: #4a2c60;
     padding: 10vh 50px;
 }
 
@@ -343,8 +358,8 @@ body {
     font-family: button_text;
     color: #4A2C60;
     text-align: center;
-    margin-left : 47%; 
-    margin-right:53% ;
+    /* margin-left : 47%; 
+    margin-right:53% ; */
     font-size: 1.3vw;
 }
 .col_map {
