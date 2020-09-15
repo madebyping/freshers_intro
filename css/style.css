@@ -77,7 +77,7 @@ h1, h2{
 .parent {
 	overflow-y: scroll;
 	height: 100vh;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y;
 	scroll-behavior: smooth;
 }
 
