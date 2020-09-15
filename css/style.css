@@ -5,12 +5,12 @@
 }
 @font-face {
 	font-family: main_heading;
-	src : url("../fonts/MR\ ROBOT.ttf");
+	src : url("../fonts/hollywood_hills/SF\ Hollywood\ Hills\ Bold.ttf");
 }
 
 @font-face {
 	font-family: faccha_exp;
-	src: url("../fonts/wild_hazelnut/Wild\ Hazelnut.ttf");
+	src: url("../fonts/Hack-Bold.ttf");
 }
 
 @font-face {
@@ -33,6 +33,7 @@ div, body, html{
 	margin: 0;
 	box-sizing: border-box;
 	text-align: center;
+	overflow: hidden;
 }
 
 h1, h2{
@@ -70,6 +71,17 @@ h1, h2{
 
 .purple{
 	background-color: #4a2c60;
+}
+
+.parent {
+	overflow-y: scroll;
+	height: 100vh;
+	scroll-snap-type: y mandatory;
+}
+
+.row, .stop {
+	scroll-snap-align: end;
+	scroll-snap-stop: normal;
 }
 
 .box1 h1{
