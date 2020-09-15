@@ -43,6 +43,7 @@ h1, h2{
 .row{
 	min-height: 100vh;
 	padding-top: 50px;
+	margin-left: 0 !important;
 }
 
 .row, .row > *{
